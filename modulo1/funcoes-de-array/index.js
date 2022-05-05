@@ -94,13 +94,15 @@ const petsPoodle = pets.filter((array) => {
     return array.raca === "Poodle"
 })
 const listaNomePoodles = petsPoodle.map((array) => {
-    return array.nome
+    return `Você ganhou um cupom de desconto de 10% para tosar o/a ${array.nome}`
 })
 
-for (let i = 0; i < listaNomePoodles.length; i++) {
-    let mensagemPoodle = `Você ganhou um cupom de desconto de 10% para tosar o/a ${listaNomePoodles[i]}!`
-    console.log(mensagemPoodle)
-}
+console.log(listaNomePoodles)
+
+// for (let i = 0; i < listaNomePoodles.length; i++) {
+//     let mensagemPoodle = `Você ganhou um cupom de desconto de 10% para tosar o/a ${listaNomePoodles[i]}!`
+//     console.log(mensagemPoodle)
+// }
 
 // 2.Dado o seguinte array de produtos, realize as operações pedidas nos itens abaixo utilizando as funções de array map e filter:
 
@@ -172,7 +174,7 @@ const listaMensagemCampanha = listaYpe.map((array) => {
 })
 console.log(listaMensagemCampanha)
 
-/*************************DESAFIO*************************/
+// /*************************DESAFIO*************************/
 
 // 1. Dado o seguinte array de pokémons, realize as operações pedidas nos itens abaixo:
 
@@ -199,3 +201,4 @@ const step = pokemons.map((array)=>{
 })
 const tiposPokemons = [...new Set(step)]
 console.log(tiposPokemons)
+
