@@ -1,0 +1,28 @@
+Na aula de ontem, tivemos a explicação dos 7 passos fundamentais para que possamos resolver nosso problemas.
+Eles, nada mais são, do que dicas para que possamos construir uma linha de raciocínio lógico, são eles:
+
+- Ter atenção no Enunciado;
+- Retirar informações relevantes;
+- Pensar entradas e saídas;
+- Fazer um esquema visual
+- Criar código feio;
+- Testar força-bruta;
+- Refatorar.
+
+Tudo começa na leitura do enunciado. A primeira vez que lemos é somente para conhecer o problema.
+Feito isso, devemos ler novamente se atentando ao detalhes e interpretando melhor o problema mostrado, assim, já passamos
+para o segundo passo que é retirar as informações relevantes. Essas informações, muitas vezes são palavras chaves, verbos de criação
+ou condições para que algo exista.
+No terceiro passo, pensar nas entradas e saídas, com as informações que já retiramos do enunciado, podemos começar a organizar
+as idéias e identificar quais variáveis podemos começar a criar, quais serão os tipos delas, podendo ser variáveis simples
+ou arrays ou objeto ou array com objetos, enfim, N possibilidades, tudo dependente das informações fornecidas.
+O quarto passo, dependendo da pessoa, pode ser o terceiro e o terceiro passo o quarto, pois o esquema visual, auxilia
+cada um de uma forma diferente, alguns precisam dele antes para criar a linha de raciocínio outros fazem ele depois para não perde-la.
+Todavia, ter um esquema visual, auxilia muito no processo de criação.
+O quinto passo e o sexto passo, criar um código feio e testar na força bruta, significam colocar as ideias do jeito que elas aparecerem para 
+resolver o problema da melhor forma para aquele momento. Sem pensar muito na estética ou nos processos de otimização do código, 
+o código feio é para funcionar e resolver, simples assim.
+Por fim, refatorar. Nesta parte, o seu código já está funcionando, sua lógica já foi criada, portanto, essa parte é para polir o seu 
+código e deixa-lo "mais bonito", mais funcional/performático.
+Resumindo, não existe formula mágica, cada individuo possui formas e métodos para conseguir construir o caminho do seu raciocínio lógico,
+porém, para quem se encontra perdido no momento, esses passos são um excelente norte.
