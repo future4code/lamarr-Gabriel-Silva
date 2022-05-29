@@ -1,27 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="style.css">
-    <title>Document</title>
+    <title>Sobre mim</title>
 </head>
+
 <body>
     <div class="bg-image"></div>
 
-    <div1 class="bg-text">
-        <div2 class="scrollmenu">
+    <div1 class="demaisbgs">
+        <div2 class="demaismenus">
             <a href="index.html">Home</a>
-            <a href="Projects.html">Projects</a>
-            <a href="contact.html">Contact</a>
+            <a href="Projects.html">Projeto</a>
+            <a href="contact.html">Contato</a>
         </div2>
     </div1>
-    <footer class="rodape">
-        <p>My social midia</p>
-        <img width="35 px" src="./ibagens/insta.png">
-        <img width="35 px" src="./ibagens/facebook_logo_icon_147291.png" />
-        <img width="35 px" src="./ibagens/github_logo_icon_147285.png" />
+    <div2 class="demaisbgstexto">
+        <h1>Futuro Dev Fullstack</h1>
+        <img src="./ibagens/Eu.jpg" alt="" class="ibagem">
+        <p>
+        <h3>Sou o Gabriel tenho 28 anos e atualmente estou estudando para me tornar um desenvolvedor Fullstack. <br><br>
+        Quando tenho um tempo livre, gosto de ficar jogando games de simulação #mycareerNBAs2, tocar meu violão e
+        tenho como terapia a musculação. Sério, ajuda demais! <br><br>
+        Bom, isso sou eu. Agora se você quer saber onde estudei ou infos sobre habilidades que tenho é só clicar no
+        menu abaixo.</h3>
+        <div2 class="demaismenus">
+            <a href="Habilidades.html">Habilidades</a>
+            <a href="historico.html">Histórico</a>
+        </div2>
+    </div2>
+
+    <footer>
+        <div class="bg-text-rodape">
+            <p>My social midia</p>
+            <button class="botoes" onclick="instagram()"><img width="35 px" src="./ibagens/insta.png"></button>
+            <button class="botoes" onclick="facebook()"><img width="35 px"
+                    src="./ibagens/facebook_logo_icon_147291.png" /></button>
+            <button class="botoes" onclick="gitHub()"><img width="35 px"
+                    src="./ibagens/github_logo_icon_147285.png" /></button>
+            <button class="botoes" onclick="linkedIn()"><img width="39 px" src="./ibagens/linkedin_logo.png" /></button>
+            <script>
+                function instagram() {
+                    window.open("https://www.instagram.com/gah.martins23/");
+                }
+                function facebook() {
+                    window.open("https://web.facebook.com/gabriel.martins23");
+                }
+                function gitHub() {
+                    window.open("https://github.com/mmartinsgabriel");
+                }
+                function linkedIn() {
+                    window.open("https://www.linkedin.com/in/gabrielmmartinsdasilva/");
+                }
+
+            </script>
+        </div>
     </footer>
 </body>
+
 </html>

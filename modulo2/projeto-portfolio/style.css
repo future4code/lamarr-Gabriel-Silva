@@ -1,6 +1,11 @@
-body, html{
+body,
+html {
     height: 95%;
-    background-color: black;
+    background-color: Black;
+}
+
+* {
+    box-sizing: border-box;
 }
 
 .bg-image {
@@ -9,7 +14,7 @@ body, html{
 
     /* Add the blur effect */
     filter: blur(5px);
-    -webkit-filter: blur(5px);
+    -webkit-filter: blur(4px);
 
     /* Full height */
     height: 100%;
@@ -22,84 +27,162 @@ body, html{
 
 /* Position text in the middle of the page/image */
 .bg-text {
-    
+
     background-color: rgb(0, 0, 0);
     /* Fallback color */
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.95);
     /* Black w/opacity/see-through */
     color: white;
     font-weight: bolder;
+    border: 3px solid whitesmoke;
     position: fixed;
-    top: 5%;
+    top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 100%;
-    padding: 10px;
+    width: 80%;
+    padding: 20px;
     text-align: center;
 }
 
-div1>div2.scrollmenu {
+div2.scrollmenu {
     overflow: hidden;
     white-space: normal;
 }
 
-div1>div2.scrollmenu a {
-    display:inline-block;
+div2.scrollmenu a {
+    display: inline-block;
     color: white;
-    text-shadow: 1px 1px 3px white;
-    font-size: 20px;
-    text-align: right;
-    padding: 20px;
-    text-decoration:none;
-}
-
-div1>div2.scrollmenu a:hover {
-    background-color: rgba(255, 255, 255, 0.5);
-}
-
-h1,h2{
     text-shadow: 1px 1px 4px white;
-    font-weight: bolder;
+    font-size: 20px;
+    text-align: center;
+    padding: 20px;
+    text-decoration: none;
 }
 
-div3.bg-text2{
+div2.scrollmenu a:hover {
     background-color: rgba(255, 255, 255, 0.5);
-    /* Fallback color */
-    background-color: rgba(255, 255, 255, 0.8);
-    /* Black w/opacity/see-through */
-    color: black;
+}
+
+h1,
+h2 {
+    text-shadow: 1px 1px 4px white;
+}
+
+p {
+    font-size: large;
+    text-align:center;
+}
+
+.bg-text-rodape {
+    color: white;
     font-weight: bolder;
-    position:absolute;
+    position: fixed;
+    top: auto;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+
+    text-align: center;
+    text-shadow: 1px 1px 4px white;
+    font-size: 20px;
+}
+
+.ibagem {
+    border: 5px solid #ddd;
+    border-radius: 100%;
+    padding: 5px;
+    width: 150px;
+
+}
+
+.ibagem2 {
+    padding: 5px;
+    width: 5%;
+}
+
+/******************************************************* DEMAIS PAGINAS ***********************************************/
+
+.demaisbgs {
+
+    background-color: rgb(0, 0, 0);
+    /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.0);
+    /* Black w/opacity/see-through */
+    color: white;
+    font-weight: bolder;
+
+    position: fixed;
+    top: 5%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 90%;
+    padding: 20px;
+    text-align: center;
+}
+
+.demaismenus {
+    overflow: hidden;
+    white-space: normal;
+}
+
+.demaismenus a {
+    display: inline-block;
+    color: white;
+    text-shadow: 1px 1px 4px white;
+    font-size: 20px;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.demaismenus a:hover {
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+h1,
+h2 {
+    text-shadow: 1px 1px 4px white;
+}
+h3{
+    text-align: justify;
+    margin-left: 10px;
+}
+div2.demaisbgstexto {
+
+    background-color: rgb(0, 0, 0);
+    /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.99);
+    /* Black w/opacity/see-through */
+    color: white;
+    font-weight: bolder;
+    border: 3px solid whitesmoke;
+    position: fixed;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 70%;
-    height: 80%;
-    padding: 10px;
+    width: 80%;
+    padding: auto;
     text-align: center;
-    
-}
-.rodape{
-    color: white;
-    text-shadow: 1px 1px 3px white;
-    font-size: 20px;
-    text-align: center;
-    text-decoration:none;
-}
-div3>div4{
-    text-align: center;
-    position: relative;
-    top: 30%;
-}
-div3>div4>h1{
-    position: relative;
-    top: -30%;
-    font-size: 80px;
 }
 
-div3>div4>h2{
-    position: relative;
-    top: -30%;
-    font-size: 40px;
+.bg-text-rodape {
+    color: white;
+    font-weight: bolder;
+    position: fixed;
+    top: auto;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+
+    text-align: center;
+    text-shadow: 1px 1px 4px white;
+    font-size: 20px;
+}
+div2>p{
     text-align: justify;
+    margin-left: 10px
+}
+
+.botoes{
+    background-color: rgba(255, 255, 255, 0);
 }
