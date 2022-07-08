@@ -85,7 +85,7 @@ function Post(props) {
         />
       </PostFooter>
       {componenteComentario}
-
+    
     </PostContainer>
   )
 }
