@@ -1,0 +1,15 @@
+.Container {
+
+    height: 40vw;
+    background-color: lightsteelblue;
+    width: 50%;
+    display: flex;
+    align-items: flex-end;
+    margin-left: 25%;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    border: solid rgba(0, 0, 0, 0.5);
+    box-shadow: 10px 10px 30px  ;
+    border-radius: 10px;
+    position: fixed;    
+}
