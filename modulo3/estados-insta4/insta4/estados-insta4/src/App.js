@@ -45,39 +45,6 @@ function App() {
     setPost(uploadPost)
   }
 
-  return (
-    <MainContainer>
-      <Forms>
-        <label className='Label'>Nome:</label>
-        <input
-          className='Input'
-          placeholder='Insira um Nome'
-          onChange={handleInputName}
-          value={inputName}
-        />
-        <br />
-        <label className='Label'>Perfil:</label>
-        <input
-          className='Input'
-          placeholder='URL do Perfil'
-          onChange={handleInputProfile}
-          value={inputProfile}
-        />
-        <br />
-        <label className='Label'>Post:</label>
-        <input
-          className='Input'
-          placeholder='URL do Post'
-          onChange={handleInputImage}
-          value={inputImage}
-        />
-        <br />
-        <button onClick={addPost}>Postar</button>
-
-      </Forms>
-      {listaPost}
-    </MainContainer>
-  )
 
 }
 
